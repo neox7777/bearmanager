@@ -1,0 +1,1 @@
+from .wordgen import WordGen
