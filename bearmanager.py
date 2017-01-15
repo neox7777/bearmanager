@@ -2,13 +2,12 @@
 
 # SNAKES AHEAD!!!
 # Created by ogator on 1/16/2017.
+
+import cmd
 import sys
 
-
-# Gather our code in a main() function
-import cmd, sys
-
 from modules.bearmodules import BearModules
+
 
 class BearManager(cmd.Cmd):
     intro = "         _____        _\n" \

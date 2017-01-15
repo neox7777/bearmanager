@@ -8,6 +8,7 @@ import inspect
 
 # BearModules are implemented as class instances
 # For each module there is a class implementing it
+# Bear modules must be instances of cmd.Cmd
 class BearModules:
     def __init__(self):
         lst = os.listdir('modules')
